@@ -1,0 +1,10 @@
+<section class="hero">
+  <h2 class="section-title">Contact & Payment</h2>
+  <p>Email: bibyanjahanvi@gmail.com</p>
+  <p>No COD | No Returns</p>
+  
+  <h3>Pay via UPI</h3>
+  <button onclick="window.location.href='upi://pay?pa=jahanvibibyan333-1@okhdfcbank&pn=Jahanvi%20Bibyan&tn=Dreamora%20Order&cu=INR'">
+    Google Pay / PhonePe
+  </button>
+</section>
