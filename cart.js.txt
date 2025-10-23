@@ -1,0 +1,15 @@
+// Cart JS for cart.html page
+const cartDiv = document.getElementById('cart');
+const cartButtons = document.querySelectorAll('.cart-btn');
+
+cartButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const productName = btn.parentElement.querySelector('h3').textContent;
+        const packagingSelect = btn.parentElement.querySelector('select');
+        const packaging = packagingSelect ? packagingSelect.value : "No Packaging Selected";
+
+        const item = document.createElement('p');
+        item.textContent = `${productName} | Packaging: ${packaging}`;
+        cartDiv.appendChild(item);
+    });
+});

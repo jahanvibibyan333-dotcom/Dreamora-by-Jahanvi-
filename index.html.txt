@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamora by Jahanvi - Home</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {font-family: 'Arial', sans-serif; background-color:#fff0f5; color:#333;}
+        a {text-decoration:none; color:inherit;}
+        header {background-color: #ffccff; padding: 20px; text-align: center; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        header h1 {font-size:2.5em; color:#ff69b4;}
+        nav {text-align:center; margin:15px 0;}
+        nav a {display:inline-block; margin:0 10px; padding:10px 20px; background-color:#ffb6c1; color:white; border-radius:8px; transition:0.3s;}
+        nav a:hover {background-color:#ff69b4;}
+        .hero {text-align:center; padding:50px 20px; background:linear-gradient(to right, #ffe6f2, #fff0ff);}
+        .hero h2 {font-size:2em; color:#ff3399; margin-bottom:10px;}
+        .hero p {font-size:1.2em; color:#ff66b2;}
+        footer {background-color:#ffccff; color:#ff3399; text-align:center; padding:20px; margin-top:40px;}
+        .socials a {margin:0 10px; color:#ff3399; font-weight:bold;}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dreamora by Jahanvi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Unwrap happiness with Dreamora</h2>
+    <p>World of Little Wonders<br>
+    Cute stationery hampers for making every kid's day special<br>
+    Happy kids, happy hearts<br>
+    Get your Dreamora now</p>
+</section>
+
+<footer>
+    <p>Contact us: <a href="mailto:bibyanjahanvi@gmail.com">bibyanjahanvi@gmail.com</a></p>
+    <p class="socials">
+        <a href="https://www.instagram.com/dreamora_by_jahanvi?igsh=ZXprY3NjOWZwZDIy&utm_source=qr" target="_blank">Instagram</a> |
+        <a href="https://youtube.com/@dreamorabyjahanvi?si=u_cpYNFkXt8UB6Ba" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

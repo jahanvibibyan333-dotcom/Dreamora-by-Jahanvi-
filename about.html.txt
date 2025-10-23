@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dreamora</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {font-family: 'Arial', sans-serif; background-color:#fff0f5; color:#333;}
+        a {text-decoration:none; color:inherit;}
+        header {background-color: #ffccff; padding: 20px; text-align: center; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        header h1 {font-size:2.5em; color:#ff69b4;}
+        nav {text-align:center; margin:15px 0;}
+        nav a {display:inline-block; margin:0 10px; padding:10px 20px; background-color:#ffb6c1; color:white; border-radius:8px; transition:0.3s;}
+        nav a:hover {background-color:#ff69b4;}
+        section {padding:40px 20px; max-width:1000px; margin:auto;}
+        .card {background:white; padding:20px; border-radius:15px; margin-bottom:20px; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        footer {background-color:#ffccff; color:#ff3399; text-align:center; padding:20px; margin-top:40px;}
+        .socials a {margin:0 10px; color:#ff3399; font-weight:bold;}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dreamora by Jahanvi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <div class="card">
+        <h2>World of Little Wonders</h2>
+        <p>Dreamora is a world of cute stationery hampers created to make every kid's day special. Our mission is simple: <strong>Happy kids, happy hearts!</strong></p>
+        <p>We provide specially curated hampers filled with fun stationery items that bring joy and excitement to little ones. Every hamper is thoughtfully designed with love and pastel, kids-friendly themes.</p>
+        <p>From unicorn pencils to cute highlighters, we ensure every product sparks creativity and happiness. Packaging is always charming, and we make sure each child gets a magical unwrapping experience!</p>
+        <p>Get your Dreamora now and make your kid's day unforgettable!</p>
+    </div>
+</section>
+
+<footer>
+    <p>Contact us: <a href="mailto:bibyanjahanvi@gmail.com">bibyanjahanvi@gmail.com</a></p>
+    <p class="socials">
+        <a href="https://www.instagram.com/dreamora_by_jahanvi?igsh=ZXprY3NjOWZwZDIy&utm_source=qr" target="_blank">Instagram</a> |
+        <a href="https://youtube.com/@dreamorabyjahanvi?si=u_cpYNFkXt8UB6Ba" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

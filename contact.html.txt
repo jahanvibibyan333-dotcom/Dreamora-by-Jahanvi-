@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Dreamora</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {font-family: 'Arial', sans-serif; background-color:#fff0f5; color:#333;}
+        a {text-decoration:none; color:inherit;}
+        header {background-color: #ffccff; padding: 20px; text-align: center; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        header h1 {font-size:2.5em; color:#ff69b4;}
+        nav {text-align:center; margin:15px 0;}
+        nav a {display:inline-block; margin:0 10px; padding:10px 20px; background-color:#ffb6c1; color:white; border-radius:8px; transition:0.3s;}
+        nav a:hover {background-color:#ff69b4;}
+        section {padding:40px 20px; max-width:1000px; margin:auto;}
+        .card {background:white; padding:20px; border-radius:15px; margin-bottom:20px; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        form input, form textarea {width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc;}
+        form button {padding:10px 20px; background-color:#ff6f61; color:white; border:none; border-radius:5px; cursor:pointer;}
+        form button:hover {background-color:#ff3b2e;}
+        footer {background-color:#ffccff; color:#ff3399; text-align:center; padding:20px; margin-top:40px;}
+        .socials a {margin:0 10px; color:#ff3399; font-weight:bold;}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dreamora by Jahanvi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <div class="card">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to place your order? Reach out to us via email or message below:</p>
+        <p>Email: <a href="mailto:bibyanjahanvi@gmail.com">bibyanjahanvi@gmail.com</a></p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Follow us on social media for updates:</p>
+        <p class="socials">
+            <a href="https://www.instagram.com/dreamora_by_jahanvi?igsh=ZXprY3NjOWZwZDIy&utm_source=qr" target="_blank">Instagram</a> |
+            <a href="https://youtube.com/@dreamorabyjahanvi?si=u_cpYNFkXt8UB6Ba" target="_blank">YouTube</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
