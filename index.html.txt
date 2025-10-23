@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dreamora by Jahanvi</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+<h1>Dreamora by Jahanvi</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+<a href="cart.html">Cart</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Unwrap happiness with Dreamora</h2>
+<p>World of Little Wonders<br>
+Cute stationery hampers for making every kid's day special<br>
+Happy kids, happy hearts<br>
+Get your Dreamora now!</p>
+</section>
+
+<footer>
+<p>Contact us: <a href="mailto:bibyanjahanvi@gmail.com">bibyanjahanvi@gmail.com</a></p>
+<p class="socials">
+<a href="https://www.instagram.com/dreamora_by_jahanvi?igsh=ZXprY3NjOWZwZDIy&utm_source=qr" target="_blank">Instagram</a> |
+<a href="https://youtube.com/@dreamorabyjahanvi?si=u_cpYNFkXt8UB6Ba" target="_blank">YouTube</a>
+</p>
+<p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
