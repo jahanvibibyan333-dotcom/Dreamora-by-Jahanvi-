@@ -1,0 +1,39 @@
+/* Global */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family: 'Arial', sans-serif; background-color:#fff0f5; color:#333;}
+a {text-decoration:none; color:inherit;}
+
+/* Header & Nav */
+header {background-color: #ffccff; padding: 20px; text-align: center; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+header h1 {font-size:2.5em; color:#ff69b4;}
+nav {text-align:center; margin:15px 0;}
+nav a {display:inline-block; margin:0 10px; padding:10px 20px; background-color:#ffb6c1; color:white; border-radius:8px; transition:0.3s;}
+nav a:hover {background-color:#ff69b4;}
+
+/* Sections */
+section {padding:40px 20px; max-width:1000px; margin:auto;}
+.card {background:white; padding:20px; border-radius:15px; margin-bottom:20px; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+h2 {color:#ff3399; margin-bottom:20px; text-align:center;}
+
+/* Products */
+.products-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px;}
+.expand-btn {cursor:pointer; color:#ff3399; text-decoration:underline; margin-top:5px; display:inline-block;}
+.item-list {display:none; margin-top:10px;}
+.item-list ul {list-style:none; padding-left:0;}
+.item-list li {margin-bottom:5px;}
+.packaging select {margin-top:10px; padding:5px; border-radius:5px;}
+.cart-btn {display:inline-block; margin-top:10px; padding:8px 15px; background-color:#ff6f61; color:white; border-radius:5px; cursor:pointer;}
+.cart-btn:hover {background-color:#ff3b2e;}
+
+/* Forms */
+form input, form textarea {width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc;}
+form button {padding:10px 20px; background-color:#ff6f61; color:white; border:none; border-radius:5px; cursor:pointer;}
+form button:hover {background-color:#ff3b2e;}
+
+/* Gallery */
+.gallery-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:15px;}
+.gallery-grid div {background:#ffe6f2; height:150px; display:flex; align-items:center; justify-content:center; border-radius:10px;}
+
+/* Footer */
+footer {background-color:#ffccff; color:#ff3399; text-align:center; padding:20px; margin-top:40px;}
+.socials a {margin:0 10px; color:#ff3399; font-weight:bold;}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dreamora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dreamora by Jahanvi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <div class="card">
+        <h2>World of Little Wonders</h2>
+        <p>Dreamora is a world of cute stationery hampers created to make every kid's day special. Happy kids, happy hearts!</p>
+        <p>From unicorn pencils to cute highlighters, every hamper is thoughtfully curated with pastel, kids-friendly themes.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Contact us: <a href="mailto:bibyanjahanvi@gmail.com">bibyanjahanvi@gmail.com</a></p>
+    <p class="socials">
+        <a href="https://www.instagram.com/dreamora_by_jahanvi?igsh=ZXprY3NjOWZwZDIy&utm_source=qr" target="_blank">Instagram</a> |
+        <a href="https://youtube.com/@dreamorabyjahanvi?si=u_cpYNFkXt8UB6Ba" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
