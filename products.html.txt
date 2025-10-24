@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dreamora by Jahanvi - Products</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.cart-count {
+  background:#ff3399;
+  color:#fff;
+  border-radius:50%;
+  padding:3px 8px;
+  font-size:12px;
+  margin-left:5px;
+}
+.cart-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#ffe6f0;
+  padding:8px 10px;
+  margin:5px 0;
+  border-radius:10px;
+}
+.remove-btn {
+  background:#ff6699;
+  border:none;
+  color:white;
+  border-radius:5px;
+  padding:3px 6px;
+  cursor:pointer;
+}
+.remove-btn:hover { background:#ff3366; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Dreamora by Jahanvi</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+<a href="#cart-section">Cart <span id="cart-count" class="cart-count">0</span></a>
+</nav>
+</header>
+
+<section>
+<h2>Our Hampers</h2>
+<div class="products-grid">
+
+<!-- Dreamora Lite -->
+<div class="card">
+<h3>Dreamora Lite - ₹149</h3>
+<span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+<div class="item-list">
+<ul>
+<li>1 Unicorn Pencil (Girls) / 1 Astronaut Pencil (Boys)</li>
+<li>1 Cartoon Sharpener</li>
+<li>1 Snicker Eraser</li>
+<li>1 Pack Stickers</li>
+<li>1 Capybara Pen</li>
+<li>1 Space Diary</li>
+</ul>
+</div>
+<div class="packaging">
+<label>Packaging:</label>
+<select>
+<option>Dreamora Special Box - ₹35</option>
+<option>Dreamora Paper Bag - ₹25</option>
+</select>
+</div>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<!-- Dreamora Prime -->
+<div class="card">
+<h3>Dreamora Prime - ₹249</h3>
+<span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+<div class="item-list">
+<ul>
+<li>1 Unicorn Pencil / 1 Astronaut Pencil</li>
+<li>1 Ice Cream Sharpener</li>
+<li>1 Double Chocolate Eraser</li>
+<li>1 Pack Stickers</li>
+<li>1 Space Diary</li>
+<li>1 Capybara Pen</li>
+<li>1 Cute Highlighter</li>
+<li>1 Washi Tape</li>
+<li>1 Colouring Book</li>
+</ul>
+</div>
+<div class="packaging">
+<label>Packaging:</label>
+<select>
+<option>Dreamora Special Box - ₹35</option>
+<option>Dreamora Paper Bag - ₹25</option>
+</select>
+</div>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<!-- Dreamora Luxe -->
+<div class="card">
+<h3>Dreamora Luxe - ₹349</h3>
+<p>Click below to see items:</p>
+<span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+<div class="item-list">
+<ul>
+<li>1 Cute Comb / 1 Space Ball</li>
+<li>1 Pack of Stickers</li>
+<li>1 Space Diary</li>
+<li>1 Click Pencil</li>
+<li>1 Double Chocolate Eraser</li>
+<li>1 Unicorn Pen / 1 Labubu Pen</li>
+<li>1 Cute Highlighter</li>
+<li>2 Washi Tapes</li>
+<li>1 Colouring Book (Unicorn / Astronaut)</li>
+<li>1 Dancing Pen</li>
+</ul>
+</div>
+<div class="packaging">
+<label>Choose Packaging:</label>
+<select>
+<option>Dreamora Special Box - ₹35</option>
+<option>Dreamora Paper Bag - ₹25</option>
+</select>
+</div>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<!-- Dreamora Deluxe -->
+<div class="card">
+<h3>Dreamora Deluxe - ₹699</h3>
+<p>Click below to see items:</p>
+<span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+<div class="item-list">
+<ul>
+<li>1 Bookmark</li>
+<li>1 Ice Cream Highlighter (Multi-color)</li>
+<li>1 Cute Comb / 1 Space Ball</li>
+<li>1 Squishy Toy</li>
+<li>1 Pack Stickers</li>
+<li>1 Sharpener + Eraser</li>
+<li>1 Unicorn Pen / 1 Labubu Pen</li>
+<li>1 Click Pencil</li>
+<li>Set of Hair Ties / 1 Spider-Man Sharpener</li>
+<li>1 Cupcake Eraser</li>
+<li>1 Water Diary</li>
+<li>1 Colouring Book (Unicorn / Astronaut)</li>
+</ul>
+</div>
+<div class="packaging">
+<label>Choose Packaging:</label>
+<select>
+<option>Dreamora Special Box - ₹35</option>
+<option>Dreamora Paper Bag - ₹25</option>
+</select>
+</div>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<!-- Dreamora Ultra Deluxe -->
+<div class="card">
+<h3>Dreamora Ultra Deluxe - ₹999</h3>
+<p>Click below to see items:</p>
+<span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+<div class="item-list">
+<ul>
+<li>Cute Table Lamp</li>
+<li>1 Bookmark</li>
+<li>1 Sticky Notes</li>
+<li>1 Ice Cream Highlighter (Multi-color)</li>
+<li>1 Cute Comb / 1 Space Ball</li>
+<li>1 Squishy Toy</li>
+<li>1 Bag Charm</li>
+<li>1 Water Diary</li>
+<li>1 Pack of Stickers</li>
+<li>1 Colouring Book (Unicorn / Astronaut)</li>
+<li>1 Sharpener + Eraser</li>
+<li>1 Unicorn Pen / 1 Labubu Pen</li>
+<li>1 Click Pencil</li>
+<li>1 Cute Wrist Band</li>
+<li>Set of Hair Ties / 1 Spider-Man Sharpener</li>
+<li>1 Lollipop Kitty Eraser (Set of 3)</li>
+<li>1 Capybara Pen</li>
+</ul>
+</div>
+<div class="packaging">
+<label>Choose Packaging:</label>
+<select>
+<option>Dreamora Special Box - ₹35</option>
+<option>Dreamora Paper Bag - ₹25</option>
+</select>
+</div>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<!-- Return Gift 1 -->
+        <div class="card">
+            <h3>Return Gift 1 - ₹99</h3>
+            <span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+            <div class="item-list">
+                <ul>
+                    <li>1 unicorn pencil / 1 astronaut pencil</li>
+                    <li>1 ice cream sharpener</li>
+                    <li>1 snicker eraser</li>
+                    <li>1 pack stickers</li>
+                </ul>
+            </div>
+            <p>Minimum order quantity: 5</p>
+            <div class="packaging">
+                <label>Choose Packaging (mandatory):</label><br>
+                <select>
+                    <option value="special_box">Dreamora special box - ₹35</option>
+                    <option value="paper_bag">Dreamora paper bag - ₹25</option>
+                </select>
+            </div>
+            <div class="cart-btn">Add to Cart</div>
+        </div>
+
+        <!-- Return Gift 2 -->
+        <div class="card">
+            <h3>Return Gift 2 - ₹149</h3>
+            <span class="expand-btn" onclick="toggleItems(this)">Show Items</span>
+            <div class="item-list">
+                <ul>
+                    <li>1 unicorn pencil / 1 astronaut pencil</li>
+                    <li>1 ice cream sharpener</li>
+                    <li>1 snicker eraser</li>
+                    <li>1 pack stickers</li>
+                    <li>1 cute highlighter</li>
+                    <li>1 washi tape</li>
+                </ul>
+            </div>
+            <p>Minimum order quantity: 5</p>
+            <div class="packaging">
+                <label>Choose Packaging (mandatory):</label><br>
+                <select>
+                    <option value="special_box">Dreamora special box - ₹35</option>
+                    <option value="paper_bag">Dreamora paper bag - ₹25</option>
+                </select>
+            </div>
+            <div class="cart-btn">Add to Cart</div>
+        </div>
+
+</div> <!-- products-grid end -->
+
+<!-- CART SECTION -->
+<section id="cart-section">
+  <h2 style="text-align:center; color:#ff3399;">Cart</h2>
+  <div id="cart" style="max-width:600px; margin:auto; background:#fff0f5; padding:20px; border-radius:15px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+      <p id="empty-cart">No items in cart yet.</p>
+  </div>
+</section>
+
+<script>
+function toggleItems(btn){
+  const list = btn.nextElementSibling;
+  list.style.display = list.style.display === "block" ? "none" : "block";
+  btn.textContent = list.style.display === "block" ? "Hide Items" : "Show Items";
+}
+
+const cartDiv = document.getElementById('cart');
+const emptyCartMsg = document.getElementById('empty-cart');
+const cartCount = document.getElementById('cart-count');
+let cartItems = [];
+
+document.querySelectorAll('.cart-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const card = btn.closest('.card');
+    const productName = card.querySelector('h3').textContent;
+    const packaging = card.querySelector('select').value;
+    const item = {name: productName, packaging: packaging};
+
+    cartItems.push(item);
+    updateCart();
+
+    // Button animation
+    btn.textContent = 'Added ✓';
+    btn.style.background = '#ff66b2';
+    setTimeout(()=>{ btn.textContent = 'Add to Cart'; btn.style.background = ''; },1500);
+  });
+});
+
+function updateCart(){
+  cartDiv.innerHTML = '';
+  if(cartItems.length === 0){
+    emptyCartMsg.style.display = 'block';
+    cartDiv.appendChild(emptyCartMsg);
+  } else {
+    emptyCartMsg.style.display = 'none';
+    cartItems.forEach((item, index)=>{
+      const div = document.createElement('div');
+      div.className = 'cart-item';
+      div.innerHTML = `${item.name} | ${item.packaging} <button class="remove-btn" onclick="removeItem(${index})">❌</button>`;
+      cartDiv.appendChild(div);
+    });
+  }
+  cartCount.textContent = cartItems.length;
+}
+
+function removeItem(index){
+  cartItems.splice(index,1);
+  updateCart();
+}
+</script>
+
+<footer>
+<p>Contact: <a href="mailto:bibyanjahanvi@gmail.com">bibyanjahanvi@gmail.com</a></p>
+<p class="socials">
+<a href="https://www.instagram.com/dreamora_by_jahanvi?igsh=ZXprY3NjOWZwZDIy&utm_source=qr" target="_blank">Instagram</a> |
+<a href="https://youtube.com/@dreamorabyjahanvi?si=u_cpYNFkXt8UB6Ba" target="_blank">YouTube</a>
+</p>
+<p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
