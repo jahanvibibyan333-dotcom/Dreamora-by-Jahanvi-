@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - Dreamora</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Dreamora by Jahanvi</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<section class="about-section">
+  <h2>About Dreamora</h2>
+  <p>
+    Dreamora started as Jahanvi’s small creative dream — a world filled with pastel magic, cute stationery and handmade hampers. 
+    Every Dreamora product is designed to make your loved ones smile! 🌸
+  </p>
+  <p>
+    From adorable pens to premium hampers, every piece is carefully chosen, beautifully packed, and made with lots of love. 💖
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

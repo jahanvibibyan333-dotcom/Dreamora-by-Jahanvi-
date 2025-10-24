@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dreamora Products</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Dreamora by Jahanvi</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<section class="products-grid">
+
+  <!-- Dreamora Lite -->
+  <div class="product-card">
+    <h3>Dreamora Lite</h3>
+    <p>Price: ₹149</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>1 unicorn pencil / astronaut pencil</li>
+      <li>1 cartoon sharpener</li>
+      <li>1 snicker eraser</li>
+      <li>1 pack of stickers</li>
+      <li>1 capybara pen</li>
+      <li>1 space diary</li>
+    </ul>
+    <label>Packaging:</label>
+    <select required>
+      <option value="">--Select Packaging--</option>
+      <option value="Dreamora Special Box ₹35">Dreamora Special Box ₹35</option>
+      <option value="Dreamora Paper Bag ₹25">Dreamora Paper Bag ₹25</option>
+    </select>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+  <!-- Dreamora Prime -->
+  <div class="product-card">
+    <h3>Dreamora Prime</h3>
+    <p>Price: ₹249</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>1 unicorn/astronaut pencil</li>
+      <li>1 ice cream/spiderman sharpener</li>
+      <li>1 double chocolate eraser</li>
+      <li>1 pack stickers</li>
+      <li>1 space diary</li>
+      <li>1 capybara pen</li>
+      <li>1 cute highlighter</li>
+      <li>1 washi tape</li>
+      <li>1 colouring book (unicorn/astronaut)</li>
+    </ul>
+    <label>Packaging:</label>
+    <select required>
+      <option value="">--Select Packaging--</option>
+      <option value="Dreamora Special Box ₹35">Dreamora Special Box ₹35</option>
+      <option value="Dreamora Paper Bag ₹25">Dreamora Paper Bag ₹25</option>
+    </select>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+  <!-- Dreamora Luxe -->
+  <div class="product-card">
+    <h3>Dreamora Luxe</h3>
+    <p>Price: ₹349</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>1 cute comb / space ball</li>
+      <li>1 pack stickers</li>
+      <li>1 space diary</li>
+      <li>1 click pencil</li>
+      <li>1 double chocolate eraser</li>
+      <li>1 unicorn pen / labubu pen</li>
+      <li>1 cute highlighter</li>
+      <li>2 washi tapes</li>
+      <li>1 colouring book</li>
+      <li>1 dancing pen</li>
+    </ul>
+    <label>Packaging:</label>
+    <select required>
+      <option value="">--Select Packaging--</option>
+      <option value="Dreamora Special Box ₹35">Dreamora Special Box ₹35</option>
+      <option value="Dreamora Paper Bag ₹25">Dreamora Paper Bag ₹25</option>
+    </select>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+  <!-- Dreamora Deluxe -->
+  <div class="product-card">
+    <h3>Dreamora Deluxe</h3>
+    <p>Price: ₹699</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>1 bookmark</li>
+      <li>1 ice cream highlighter</li>
+      <li>1 cute comb / space ball</li>
+      <li>1 squishy toy</li>
+      <li>1 pack stickers</li>
+      <li>1 sharpener + eraser</li>
+      <li>1 unicorn/labubu pen</li>
+      <li>1 click pencil</li>
+      <li>1 hair ties / spiderman sharpener</li>
+      <li>1 cupcake eraser</li>
+      <li>1 water diary</li>
+      <li>1 colouring book</li>
+    </ul>
+    <label>Packaging:</label>
+    <select required>
+      <option value="">--Select Packaging--</option>
+      <option value="Dreamora Special Box ₹35">Dreamora Special Box ₹35</option>
+      <option value="Dreamora Paper Bag ₹25">Dreamora Paper Bag ₹25</option>
+    </select>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+  <!-- Dreamora Ultra Deluxe -->
+  <div class="product-card">
+    <h3>Dreamora Ultra Deluxe</h3>
+    <p>Price: ₹999</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>Cute table lamp</li>
+      <li>Bookmark</li>
+      <li>Sticky notes</li>
+      <li>Ice cream highlighter</li>
+      <li>Cute comb / space ball</li>
+      <li>Squishy toy</li>
+      <li>Bag charm</li>
+      <li>Water diary</li>
+      <li>Pack of stickers</li>
+      <li>Colouring book</li>
+      <li>Sharpener + eraser</li>
+      <li>Unicorn & labubu pen</li>
+      <li>Click pencil</li>
+      <li>Cute wrist band</li>
+      <li>Hair ties / Spiderman sharpener</li>
+      <li>Lollipop kitty eraser (set of 3)</li>
+      <li>Capybara pen</li>
+    </ul>
+    <label>Packaging:</label>
+    <select required>
+      <option value="">--Select Packaging--</option>
+      <option value="Dreamora Special Box ₹35">Dreamora Special Box ₹35</option>
+      <option value="Dreamora Paper Bag ₹25">Dreamora Paper Bag ₹25</option>
+    </select>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+  <!-- Return Gift 1 -->
+  <div class="product-card">
+    <h3>Return Gift 1</h3>
+    <p>Price: ₹99</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>1 unicorn / astronaut pencil</li>
+      <li>1 ice cream sharpener</li>
+      <li>1 snicker eraser</li>
+      <li>1 pack stickers</li>
+      <li>Min Order: 5</li>
+    </ul>
+    <p>Packaging: Free (small transparent kit)</p>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+  <!-- Return Gift 2 -->
+  <div class="product-card">
+    <h3>Return Gift 2</h3>
+    <p>Price: ₹149</p>
+    <button onclick="toggleItems(this)">Show Items</button>
+    <ul class="item-list">
+      <li>1 unicorn / astronaut pencil</li>
+      <li>1 ice cream sharpener</li>
+      <li>1 snicker eraser</li>
+      <li>1 pack stickers</li>
+      <li>1 cute highlighter</li>
+      <li>1 washi tape</li>
+      <li>Min Order: 5</li>
+    </ul>
+    <p>Packaging: Free (small transparent kit)</p>
+    <button class="cart-btn">Add to Cart</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>&copy; 2025 Dreamora by Jahanvi | All Rights Reserved</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
